@@ -2,3 +2,12 @@ body{
     background: linear-gradient(90deg,#D9547B, #F8AD48);
       }
       
+.lumiere{
+    position: absolute;
+    padding-left: 731px;
+    padding-top: 79px;
+}
+.nuageux{
+    padding-left: 909px;
+    padding-top: 271px;
+}

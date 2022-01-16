@@ -30,12 +30,36 @@ body{
     text-align: center;
 }
 
-.lumiere{
+.contenu{
+    margin-top:106px;
+    margin-left:202px;
+    color:white;
+}
+
+.jour{
+    padding-left: 106px;
+    padding-top: 202px;
+}
+.list{
+    padding-left: 202px;
+    padding-top: 48px;
+}
+.temp{
     position: absolute;
-    padding-left: 731px;
-    padding-top: 79px;
+    padding-left: 27px;
+    padding-top: 48px;
+}
+.lumiere{
+    z-index: -1;
+    position: absolute;
+    padding-left: 48px;
+    padding-top: 48px;
 }
 .nuageux{
-    padding-left: 909px;
-    padding-top: 271px;
+    padding-left: 27px;
+    padding-top: 48px;
+}
+.semaine{
+    padding-left: 279px;
+    padding-top: 110px;
 }

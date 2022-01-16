@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="css/style.css" />
+      <title>WeatherBit</title>
+   <body>
+      
+
+      <header>
+         <!--La barre de recherche-->
+         <div class="recherche">
+            <img src="images/Search.svg">
+            <div class="recherche-btn">
+                <p>Search</p>
+            </div>
+        </div>
+        
+      </header>
+      <div class="contenu">
+         <h1>
+            <p class="ville"></p>
+            <p class="date"></p>
+         </h1>
+         <div id="principal">
+               <!--L'affichage des infomrations météorologique comme la pluie le taux de vents ectt -->
+               <section id="bloque">
+                  <div class="liste">
+                     <section class="liste_titre">
+                        <!--Informations sur le vent-->
+                        <p>Wind(gust)</p>
+                     </section>
+                     <section class="liste_information">
+                        <p class="taux_vent" id="taux_vent"></p>
+                        <img src="images/Icons.svg"/>
+                     </section>
+                  </div>
+                  <div class="liste">
+                     <section class="liste_titre">
+                        <!--Informations sur l'ensoillement-->
+                        <p>Sunrise</p>
+                    </section>
+                     <section class="liste_information">
+                      <p class="ensolleiment" id="ensolleiment"></p>
+                         <img src="images/IconsSunrise.svg"/>
+                     </section>
+                  </div>
+                  <div class="liste">
+                        <section class="liste_titre">
+                           <!--Heure précise sur le lever et le coucher de soleil-->
+                             <p>Sunset</p>
+                         </section>
+                               <section class="liste_information">
+                                    <p class="coucher" id="coucher"></p>
+                                      <img src="images/IconsSunset.svg"/>
+                               </section>
+                  </div>
+                   <div class="liste">
+                        <section class="liste_titre">
+                           <!--Taux de précipitation de la ville choisie-->
+                          <p>Precipitation</p>
+                        </section>
+                             <section class="liste_information">
+                                 <p class="pluie" id="pluie"></p>
+                                     <img src="images/Iconsprecipitations.svg"/>
+                              </section>
+                  </div>
+               </section>
+            <section id="principal_right">
+               <p class="degres"></p>
+               <p id="temperature"></p>
+               <div id="picto">
+                  <img id="rond" src="images/ellipse.svg"/>
+                  <img id="condition" src="images/partly_cloudy.svg"/>
+               </div>
+            </section>
+         </div>
+         <div id="jours">
+            <ul id="week">
+               <!--Ce qui permet d'afficher les différents jours de la semaine afin de pouvoir se renseinger-->
+               <li class="jourssuivant">
+                  <button>Today</button>
+               </li>
+               <li class="jourssuivant">
+                  <button>Thursday</button>
+               </li>
+               <li class="jourssuivant">
+                  <button>Friday</button>
+               </li>
+               <li class="jourssuivant">
+                  <button>Saturday</button>
+               </li>
+               <li class="jourssuivant">
+                  <button>Sunday</button>
+               </li>
+               <li class="jourssuivant">
+                  <button>Monday</button>
+               </li>
+               <li class="jourssuivant">
+                  <button>Tuesday</button>
+               </li>
+            </ul>
+         </div>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+      <script src="js/principal.js"></script>
+   </body>
+</html>

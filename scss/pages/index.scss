@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+	height: 100%;
+	background: linear-gradient(72.85deg, #D9547B 0%, #F8AD48 100%);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header {
+	padding-right: 32px;
+	display: flex;
+	justify-content: end;
+	align-items: center;
+	height: 80px;
+}
+
+.principal {
+	padding-top: 106px;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+.principal h1 {
+	font-size: 40px;
+	color: white;
+	align-items: center;
+}
+
+.liste {
+	padding-bottom: 16px;
+	padding-top: 16px;
+	border-bottom: solid 1px #fff;
+	font-family: roboto, sans-serif;
+	color: white;
+	font-size: 16px;
+	display: flex;
+	justify-content: space-between;
+}
+
+section.liste_information {
+	display: flex;
+}
+
+#main {
+	display: flex;
+}
+
+#rond{
+	position: absolute;
+}
+
+#bloque {
+	margin-top: 32px;
+	width: 400px;
+}
+
+div#main section#bloque div.liste section.liste_information p {
+	padding-right: 8px;
+	margin: auto;
+}
+
+div#main section#bloque div.liste section.title_liste {
+	display: flex;
+}
+
+div#main section#bloque div.liste section.title_liste p {
+	margin: auto;
+}
+
+div#main section#main_right {
+	float: right;
+	display: flex;
+	margin-left: 27px;
+	margin-left: 20%;
+}
+
+.degresgros{
+	color: #fff;
+	position: absolute;
+	font-size: 300px;
+	opacity: 20%;
+	font-family: Roboto, sans-serif;
+}
+
+div#main section#main_right div#picto img#condition {
+	position: absolute;
+	margin: auto;
+}
+
+div#main section#main_right div#picto {
+	padding-left: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+li.jourssuivant {
+	display: inline;
+}
+
+#jours {
+	display: flex;
+	padding-top: 12%;
+}
+
+div#jours ul#week {
+	margin: auto;
+}
+
+div#jours ul#week li {
+	padding-right: 16px;
+}
+
+div#jours ul#week li.jourssuivant button {
+	border-radius: 100px;
+	border-style: none;
+	width: 122px;
+	height: 56px;
+	font-size: 14px;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+

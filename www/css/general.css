@@ -1,7 +1,35 @@
 body{
-    background: linear-gradient(90deg,#D9547B, #F8AD48);
+    background: linear-gradient(72.85deg,#D9547B 0%, #F8AD48 100%);
+    font-family: 'Roboto', sans-serif;
       }
-      
+    
+
+.recherche{
+    width: 612px;
+    height: 56px;
+    background-color: white;
+    border-radius: 100px;
+    float:right;
+    margin-right:32px;
+    margin-top:32px;
+}
+
+.recherche-btn{
+    float:right;
+    background-color:black;
+    width: 80px;
+    height: 32px;
+    margin-top: 12px;
+    margin-right:12px;
+    border-radius: 100px;
+}
+
+.recherche-btn p{
+    margin-top: 5px;
+    color:white;
+    text-align: center;
+}
+
 .lumiere{
     position: absolute;
     padding-left: 731px;

@@ -20,7 +20,6 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* HTML5 display-role reset for older browsers */
 
 
 body {
@@ -88,17 +87,6 @@ header {
   height: 80px;
 }
 
-.contenu {
-  padding-top: 106px;
-  padding-left: 200px;
-  padding-right: 200px;
-}
-
-.contenu h1 {
-  font-size: 40px;
-  color: white;
-  align-items: center;
-}
 
 .liste {
   padding-bottom: 16px;
@@ -128,6 +116,7 @@ section.liste_information {
   width: 400px;
 }
 
+
 div#principal section#bloque div.liste section.liste_information p {
   padding-right: 8px;
   margin: auto;
@@ -141,13 +130,25 @@ div#principal section#bloque div.liste section.title_liste p {
   margin: auto;
 }
 
+.contenu {
+  padding-top: 106px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.contenu h1 {
+  font-size: 40px;
+  color: white;
+  align-items: center;
+}
+
 div#principal section#principal_right {
   float: right;
   display: flex;
   margin-left: 27px;
   margin-left: 20%;
 }
-
+/*La couleur et la position des degrés  */
 .degresgros {
   color: #fff;
   position: absolute;

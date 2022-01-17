@@ -24,6 +24,7 @@ time, mark, audio, video {
 
 body {
   line-height: 1;
+  height:1440px; 
 }
 
 .recherche{
@@ -187,11 +188,13 @@ div#jours ul#week li {
 }
 
 div#jours ul#week li.jourssuivant button {
+  background-color: transparent;
   border-radius: 100px;
-  border-style: none;
+  border:1px;
   width: 122px;
   height: 56px;
   font-size: 14px;
+  color:white;
 }
 
 footer {
@@ -201,4 +204,3 @@ footer {
   right: 0;
 }
 
-/*# sourceMappingURL=style.css.map */

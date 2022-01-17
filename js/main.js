@@ -1,10 +1,10 @@
 const settings = {
     "async": true,
     "crossDomain": true,
-    "url": "http://localhost/projetapimeteo/weather.php",
+    "url": "http://localhost/htdocs/weather/weather.php",
     "method": "GET",
     "headers": {}
-  };
+  };  
   
   $.ajax(settings).done(function (response) {
       response = JSON.parse(response);
